@@ -48,7 +48,6 @@ int main(){
 	for(int i=0;i<n;i++){
 		scanf("%d",&a[i]);
 	}
-	int cnt=0;
 	//sort array using merge sort
 	mergesort(a,n,0,n-1);
 	//print the sorted array
